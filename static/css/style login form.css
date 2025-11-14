@@ -65,6 +65,33 @@ body {
     box-shadow: 0 0 5px rgba(255, 255, 0, 0.5); 
 }
 
+.message {
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid;
+}
+
+.message.error {
+    background-color: #000000;
+    color: #ff5555;
+    border-color: #552222;
+}
+
+.message.success {
+    background-color: #000000;
+    color: #5bf55b;
+    border-color: #005800;
+}
+
+
+.btn:focus-visible {
+    outline: 2px solid #ffff00;
+    outline-offset: 2px;
+}
+
 .btn {
     width: 100%;
     padding: 12px;
@@ -81,6 +108,7 @@ body {
 .btn:hover {
     background-color: #e6e600; 
 }
+
 
 .redirect {
     text-align: center;
