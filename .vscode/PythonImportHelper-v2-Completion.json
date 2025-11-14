@@ -1,0 +1,53 @@
+[
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def login():\n    return render_template('login.html')\n@app.route('/register')\ndef register():\n    return render_template('register.html')\nif __name__ == \"__main__\":\n    app.run(debug=True)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def register():\n    return render_template('register.html')\nif __name__ == \"__main__\":\n    app.run(debug=True)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app = Flask(__name__)\n@app.route('/')\ndef login():\n    return render_template('login.html')\n@app.route('/register')\ndef register():\n    return render_template('register.html')\nif __name__ == \"__main__\":\n    app.run(debug=True)",
+        "detail": "app",
+        "documentation": {}
+    }
+]
